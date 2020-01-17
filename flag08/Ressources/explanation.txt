@@ -1,0 +1,4 @@
+Using gdb on binary we realize that it test given path to check if it contains 'token'
+Create a symbolic link: 
+	ln -s /home/user/level08/token /tmp/hey
+Then use binary on it, outputs the password of flag08 user

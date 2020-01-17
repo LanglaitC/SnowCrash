@@ -1,0 +1,14 @@
+Notice that in /etc/passwd flag01 user is in plain text
+Download John the ripper software : https://download.openwall.net/pub/projects/john/contrib/macosx/
+Scp the /etc/passwd file from the VM :
+
+  - Add ssh config to your config file :
+  	
+	Host SnowCrash
+	 HostName [VM IP]
+         User level00
+	 Port 4242
+
+  - use scp command: scp SnowCrash:/etc/passwd .
+
+./john passwd --show outputs the correct passwd

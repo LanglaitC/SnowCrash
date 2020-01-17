@@ -1,0 +1,13 @@
+Open pcap file with Wireshark and the follow stream, gives following output
+
+Linux 2.6.38-8-generic-pae (::ffff:10.1.1.2) (pts/10)
+
+wwwbugs login: lleevveellXX
+
+Password: ft_wandrNDRelL0L
+
+
+Login incorrect
+wwwbugs login: 
+
+Password is not encrypted, juste connect with it

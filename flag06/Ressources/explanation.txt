@@ -1,0 +1,1 @@
+e flag allow to execute PHP, exploit this with string interpolation to make level06 script execute getflag command using system

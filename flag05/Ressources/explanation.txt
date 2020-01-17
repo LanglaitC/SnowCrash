@@ -1,0 +1,3 @@
+After using the command find / -u flag05 you find the openareanaserver script
+Cat the script and add test.sh script to the displayed path
+After some time, file will be executed and output of command stored in tmp directory

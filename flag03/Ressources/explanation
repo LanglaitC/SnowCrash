@@ -1,0 +1,8 @@
+Using gdb we can disassemble the binary created by flag03 user
+	- b*main
+	- run
+	- disassemble
+Then place a breakpoint right before system call
+If we then inspect the memory adress called we realise that it tries to execute the command : "/usr/bin/env echo Exploit me !"
+We can create a symbolic to getflag in tmp and then add tmp directory at the start of the PATH env variable
+level03 program now executes getflag command for us

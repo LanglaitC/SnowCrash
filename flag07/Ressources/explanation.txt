@@ -1,0 +1,5 @@
+Use gdb on level07, realize that it uses env to print LOGNAME
+change LOGNAME to \`getflag\` and lauch the binary again
+
+LOGNAME=\`getflag\`
+

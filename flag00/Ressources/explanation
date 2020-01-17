@@ -1,0 +1,9 @@
+README.md says : Find file who only flag00 can execute
+
+command find -user level00 2> /dev/null
+outputs /usr/sbin/john and /rofs/usr/sbin/john
+
+command cat /rofs/usr/sbin/john
+outputs cdiiddwpgswtgt
+
+Use dcode.fr and ceaser cipher, gives us : nottoohardhere with + 15 shift

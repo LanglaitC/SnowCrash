@@ -1,0 +1,7 @@
+https://www.win.tue.nl/~aeb/linux/hh/hh-9.html
+https://en.wikipedia.org/wiki/Race_condition
+
+Exploit the fact that program uses access function before opening file
+We can use exploit.sh script that spams symlink to make the program think we wanna open a file that we own but it is replaced by a symlink to the token file by the time it arrives at open instruction
+
+We use nc -klv 6969 to listen to given port on our machine
