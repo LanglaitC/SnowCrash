@@ -1,6 +1,6 @@
 README.md says : Find file who only flag00 can execute
 
-command find -user level00 2> /dev/null
+command find / -user flag00 2> /dev/null | grep -v "proc"
 outputs /usr/sbin/john and /rofs/usr/sbin/john
 
 command cat /rofs/usr/sbin/john

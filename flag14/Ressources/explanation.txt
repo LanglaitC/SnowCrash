@@ -1,0 +1,3 @@
+Use gdb to debug the program
+Breakpont at main+72 then use: set $eax=0 to avoid being kicked of the program from using a debugger.
+Breakpoint at main+452 then use : set $eax=3014 (uid of wanted flag)

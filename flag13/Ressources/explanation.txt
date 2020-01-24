@@ -1,0 +1,2 @@
+Launch level13 by gdb
+Breakpoint at cmp after getgid then set $eax = 4242

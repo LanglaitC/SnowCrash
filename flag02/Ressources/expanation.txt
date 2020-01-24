@@ -1,4 +1,4 @@
-Open pcap file with Wireshark and the follow stream, gives following output
+Open pcap file with Wireshark. Right click and choose follow stream, gives following output
 
 Linux 2.6.38-8-generic-pae (::ffff:10.1.1.2) (pts/10)
 
@@ -10,4 +10,4 @@ Password: ft_wandrNDRelL0L
 Login incorrect
 wwwbugs login: 
 
-Password is not encrypted, juste connect with it
+Password is not encrypted, just connect with it

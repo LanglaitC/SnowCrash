@@ -1,0 +1,2 @@
+Using the binary on different string we realizes that it encrypts it by looping on it by adding the letter index to ascii code of each character
+Use the python script to decrypt the token file content, it can be used to log as flag user account

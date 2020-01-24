@@ -1,0 +1,10 @@
+We realise that perl is hosting a website on 4646
+First using ssh you can create a tunnel to your own computer
+By reading the perl program we realise that the queryparameters x is used and can be executed because it is not protected
+We are not allowed to use spaces and all letters are capitalized
+The solution is to use a wildcard to make the script execute this command :
+
+getflag | wall
+
+So we can write this in /tmp/FLAG
+and use the url http://localhost:4646/?x=`/*/FLAG` to output the flag for all users

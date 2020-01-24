@@ -1,0 +1,9 @@
+If we use top we can see that an lua script is running and was launched by flag11 user
+We can guess that this script is the one at the home directory it listens on 5151 port and uses an echo command without protections
+
+We can then inject the getflag command :
+
+echo '; getflag | wall' | nc localhost 5151
+
+we send the flag using the nc command
+wall is used so flag11 broacast the answer to all users

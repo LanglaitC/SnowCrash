@@ -10,5 +10,5 @@ Scp the /etc/passwd file from the VM :
 	 Port 4242
 
   - use scp command: scp SnowCrash:/etc/passwd .
-
+./john passwd
 ./john passwd --show outputs the correct passwd

@@ -1,1 +1,4 @@
 e flag allow to execute PHP, exploit this with string interpolation to make level06 script execute getflag command using system
+Copy content of answer.txt in a file in tmp then call level06 program :
+./level06 path_to_file command_to_execute
+./level06 /tmp/answer.txt getflag
